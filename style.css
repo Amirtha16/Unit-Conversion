@@ -1,0 +1,131 @@
+*
+{
+    margin: 10px;
+}
+body
+{
+    background-color: darkslategrey;
+}
+#home /* having app name and nav bar*/
+{
+    background-color: #483355;
+    padding-bottom: 1cm;
+    margin-top: -1cm;
+    margin-left: -1cm;
+    margin-right: -1cm;
+    padding-bottom: 2cm;
+    padding-top: 2cm;
+}
+header{
+    font-size: 30px;
+    color: rgb(240, 234, 245);
+    float: left;
+    padding-left: 2cm;   
+}
+.topdiv{
+    float: right;
+    padding-right: 1cm;
+}
+.topmenu{
+    background-color: #483355;
+    color: gray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1mm;
+    font-size: 20px;
+    text-decoration: none;
+}
+.topmenu:hover{
+    color: aliceblue;
+    font-weight: bolder;
+    background-color: #382742;
+    text-decoration: underline;
+}
+#all-conversion-sections{
+    display:grid;
+    justify-content: center;
+}
+figure{
+    float: left;
+    justify-self:auto;
+    width: 200px;
+}
+img{
+    width: 200px;
+}
+figcaption{
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+button{
+    font-size: 15px;
+    font-family:sans-serif;
+    border: transparent;
+    width: fit-content;
+    border-radius: 40px;
+    background-color: rgb(130, 109, 114);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(57, 42, 55);
+}
+input{
+    border-radius: 10px;
+}
+.b{
+    border-top-style:solid;
+    border-top-width: 20px;
+    border-radius: 20px;
+    background-color: rgb(199, 175, 175);
+    width: 600px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+.temperature{
+    border-top-color: green;
+}
+.weight{
+    border-top-color: coral;
+}
+.distance{
+    border-color: cyan;
+}
+legend{
+    font-size: 30px;
+    font-weight:bolder;
+    border-radius: 10px;
+}
+fieldset{
+    border-radius: 10px;
+}
+
+.calc{
+    margin-left: 50px;
+}
+.iconbutton{
+    width:20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: cyan;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 40px;
+}
+.iconbutton img{
+    width: 10px;
+
+}
+
+footer{
+    background-color: lightpink;
+    margin-top: 20px;
+}
